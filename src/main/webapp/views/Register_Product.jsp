@@ -1,9 +1,3 @@
-<%-- 
-    Document   : home
-    Created on : May 8, 2022, 12:28:48 PM
-    Author     : m-w-n
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
 <!DOCTYPE html>

@@ -1,9 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.to;
-
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -12,17 +7,12 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import java.util.Date;
 
-/**
- *
- * @author m-w-n
- */
 @Entity
 @Table(name = "AProduct")
 public class AProduct
 {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "prID")
     private int prID;
     @Column(name = "prName")
