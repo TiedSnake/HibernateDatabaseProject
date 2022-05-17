@@ -9,7 +9,7 @@
     </head>
     <body>
         <header>
-            <h1>Product List</h1>
+            <a href="Servlet2"><h1>Product List</h1></a>
             <nav>
                 <a href="<%=request.getContextPath()%>/views/Register_Product.jsp"><h1>Product Registration</h1></a>
             </nav>

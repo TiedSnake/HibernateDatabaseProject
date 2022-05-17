@@ -27,6 +27,7 @@ public class AProduct
     private int prID;
     @Column(name = "prName")
     private String prName;
+    @Column(name = "ProductCategory")
     private String ProductCategory;
     @Column(name = "prPrice")
     private float prPrice;

@@ -15,15 +15,16 @@
     </head>
     <body>
         <header>
-            <h1>Product Registration</h1>
+            <a href="<%=request.getContextPath()%>/views/Register_Product.jsp"><h1>Product Registration</h1></a>
             <nav>
-                <form  action="Servlet" method="post">
+                <a href="<%=request.getContextPath()%>/servlet2">Product List</a>
+<!--                <form  action="Servlet" method="post">
                     <input name="ProductList" type="submit" value="Product List">
-                </form>
+                </form>-->
             </nav>
         </header>
         <div>
-            <form class="f" action="Servlet" method="post">
+            <form class="f" action="<%=request.getContextPath()%>/Servlet" method="post">
                 <p>
                     <label path="prID">Product ID:</label>
                     <input path="prID" type="number" name="prID" placeholder="Enter Product ID" required="required"/><br>
@@ -40,7 +41,7 @@
                         <option value="Toys_Games_Collectibles">Toys, Games and Collectibles</option>
                     </select><br>
                 </p>
-                <p  >
+                <p>
                     <label path="prPrice">Product Price: </label>
                     <input path="prPrice" type="number" step="0.01" name="prPrice" placeholder="Enter Product Price" required="required"/><br>
                 </p>
